@@ -29,7 +29,7 @@ const ProductItem = ({ product, textContainerClassName }: ProductItemProps) => {
       />
       <div
         className={cn(
-          "flex max-w-50 flex-col gap-1",
+          "flex max-w-[200px] flex-col gap-1",
           textContainerClassName,
         )}
       >
