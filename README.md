@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Next Store
 
-## Getting Started
+Uma aplicação de e-commerce moderna desenvolvida com Next.js, focada em performance, experiência do usuário e boas práticas de desenvolvimento frontend.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Demonstração
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 Aplicação Online: <https://next-store-52gy.vercel.app>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📖 Sobre o Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O Next Store é uma plataforma de comércio eletrônico criada para demonstrar conceitos modernos de desenvolvimento web utilizando o ecossistema Next.js.
 
-## Learn More
+A aplicação oferece uma experiência intuitiva para navegação de produtos, pesquisa, categorização e gerenciamento de carrinho de compras, simulando funcionalidades encontradas em lojas virtuais reais.
 
-To learn more about Next.js, take a look at the following resources:
+✨ Funcionalidades
+✅ Listagem de produtos
+✅ Visualização detalhada de produtos
+✅ Sistema de categorias
+✅ Busca de produtos
+✅ Carrinho de compras
+✅ Interface responsiva
+✅ Navegação otimizada com Next.js
+✅ Consumo de APIs externas
+✅ Gerenciamento de estado da aplicação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js
+- React.js
+- TypeScript
+- TailwindCss
 
-## Deploy on Vercel
+## Ferramentas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Git
+- GitHub
+- Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Estrutura do Projeto
+
+next-store/
+├── public/
+├── src/
+│   ├── actions/
+│   ├── app/
+│   ├── components/
+│   ├── db/
+│   ├── helpers/
+│   ├── hooks/
+│   ├── lib/
+│   └── providers/
+├── package.json
+└── README.md
+
+## ⚙️ Executando Localmente
+
+### Pré-requisitos
+
+- Node.js 18+
+- npm ou yarn
+
+Clone o repositório
+`git clone https://github.com/dmoprates/next-store.git`
+Acesse o diretório
+`cd next-store`
+Instale as dependências
+`npm install`
+Execute o projeto
+`npm run dev`
+
+A aplicação estará disponível em:
+
+`http://localhost:3000`
+
+## 📸 Capturas de Tela
+
+Adicione aqui imagens ou GIFs demonstrando:
+
+Página inicial
+Catálogo de produtos
+Detalhes do produto
+Carrinho de compras
+
+## 🎯 Objetivos do Projeto
+
+Este projeto foi desenvolvido com o objetivo de:
+
+- Praticar desenvolvimento com Next.js;
+- Aplicar conceitos de componentização;
+- Trabalhar consumo de APIs;
+- Implementar boas práticas de organização de código;
+- Construir um projeto para portfólio profissional.
+
+## 📈 Melhorias Futuras
+
+- Lista de favoritos
+- Checkout completo
+- Painel administrativo
+- Link para histórico de pedidos
+- Testes automatizados
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas!
+
+### Faça um Fork do projeto
+
+Crie uma branch para sua feature
+`git checkout -b feature/minha-feature`
+Faça commit das alterações
+`git commit -m "feat: minha nova feature"`
+Envie para o repositório
+`git push origin feature/minha-feature`
+
+---
+
+## 👨‍💻 Autor
+
+Diego Prates
+
+GitHub: <https://github.com/dmoprates>
+LinkedIn: <https://linkedin.com/in/prates-diego>
+
+---
+
+⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório.
